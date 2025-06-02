@@ -86,7 +86,7 @@ Lanzar la aplicación principal:
 
 - python EcoAnalyzer.py
 
-Funcionalidades:
+## Funcionalidades:
 
 📁 Seleccionar video
 
@@ -108,7 +108,7 @@ Funcionalidades:
 
 Los resultados se guardan automáticamente en las carpetas establecidas según el método.
 
-🧠 Entrenamiento de U-Net
+## 🧠 Entrenamiento de U-Net
 El modelo U-Net fue entrenado con las imágenes y máscaras generadas a partir de las segmentaciones del dataset original.
 Para reentrenarlo (opcional):
 
@@ -118,7 +118,7 @@ El modelo resultante se guarda en:
 
 -modelo_entrenado/unet_ecocardio.pth
 
-📦 Dependencias
+## 📦 Dependencias
 Instalar dependencias principales:
 
 - pip install -r requirements.txt
@@ -143,7 +143,7 @@ tkinter (ya viene con Python en Windows)
 
 ✏️ Notas adicionales
 ✔️ Los scripts aceptan el nombre del video como argumento para facilitar la automatización.
-✔️ Los resultados parciales de segmentación y métricas ya están incluidos para referencia rápida.
+✔️ Se incluye un resultado de segmentación y métricas para referencia rápida.
 
 📚 Créditos
 📊 Dataset original y publicación:
@@ -157,4 +157,4 @@ tkinter (ya viene con Python en Windows)
  - Mateo Giraldo Zapata
  - Sergio Andres Fernandez
 
-como parte de proyectos académicos en Visión por Computador y Electromedicina.
+Como parte de proyectos académicos en Visión por Computador y Electromedicina.
