@@ -13,31 +13,57 @@
 
 ProyectoFinal/
 ├── data/
+
 │ ├── Videos/ # Videos originales
+
 │ ├── Videos_Output/ # Videos segmentados con ground truth
+
 │ ├── VideosMobileNetV3/ # Videos segmentados con MobileNetV3
+
 │ ├── VideosResNet50/ # Videos segmentados con ResNet50
+
 │ ├── videos_segmentados/ # Videos segmentados con U-Net (y .csv de EF)
+
 ├── Dataset_Segmentacion/
+
 │ ├── Datasets.py/ # Código para generar dataset de imágenes y máscaras
+
 │ ├── images/ # (NO subidos por tamaño, se generan con Datasets.py)
+
 │ ├── masks/ # (NO subidos por tamaño, se generan con Datasets.py)
+
 ├── Metricas/
+
 │ ├── PruebaMask.py # Ground truth
+
 │ ├── MobileNet.py # MobileNetV3
+
 │ ├── ResNet.py # ResNet50
+
 ├── modelo_entrenado/
+
 │ ├── UNet.py # Entrenamiento de U-Net
+
 │ ├── unet_ecocardio.pth # Modelo final entrenado
+
 ├── Utils/
+
 │ ├── FileList.csv.zip # Datos del dataset comprimidos
+
 │ ├── VolumeTracings.csv.zip
+
 ├── Calculos/
+
 │ ├── CalculoMetricas.py # IoU y Dice
+
 │ ├── CalculosFinales.py # EDV, ESV, EF
+
 ├── UNetSegmentacion.py # Segmentación y cálculo de EF con U-Net
+
 ├── EcoAnalyzer.py # Aplicación GUI principal
+
 ├── informe_final.pdf # Documento final (no incluido)
+
 └── README.md
 
 ---
