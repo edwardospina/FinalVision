@@ -12,6 +12,7 @@
 ## 🗃️ Estructura del Proyecto
 
 ProyectoFinal/
+
 ├── data/
 
 │ ├── Videos/ # Videos originales
