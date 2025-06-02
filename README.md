@@ -72,15 +72,14 @@ ProyectoFinal/
 ## ⚙️ Dataset
 
 🔗 **Dataset:**  
-[EchoNet-Dynamic](https://echonet.github.io/dynamic/)  
+[EchoNet-Dataset](https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a)  
 Incluye 10,030 videos de ecocardiogramas y segmentaciones expertas.
 
 ❗ **Nota:**  
 - Solo se incluyeron **~100 videos de prueba**.  
 - Las carpetas **`images/`** y **`masks/`** de `Dataset_Segmentacion/` no se subieron.  
 - Para recrearlas, ejecuta el script:
-```bash
-python Dataset_Segmentacion/Datasets.py
+    - python Dataset_Segmentacion/Datasets.py
 
 🚀 Uso de la Aplicación (EcoAnalyzer)
 Lanzar la aplicación principal:
@@ -148,7 +147,7 @@ tkinter (ya viene con Python en Windows)
 
 📚 Créditos
 📊 Dataset original y publicación:
-EchoNet-Dynamic - echonet.github.io/dynamic/
+[EchoNet-Dynamic](echonet.github.io/dynamic/)
 
 👨‍💻 Desarrollado por:
 
