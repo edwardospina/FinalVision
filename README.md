@@ -147,7 +147,7 @@ tkinter (ya viene con Python en Windows)
 
 📚 Créditos
 📊 Dataset original y publicación:
-[EchoNet-Dynamic](echonet.github.io/dynamic/)
+[EchoNet-Dynamic](https://echonet.github.io/dynamic/)
 
 👨‍💻 Desarrollado por:
 
