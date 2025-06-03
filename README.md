@@ -152,6 +152,7 @@ tkinter (ya viene con Python en Windows)
 👨‍💻 Desarrollado por:
 
  - Jhon Edward Ospina Navarro
+ - Sebastian Alejandro Rivera
  - Alvaro Andres Rojas Rojas
  - Jerson Andres Navarrete
  - Mateo Giraldo Zapata
